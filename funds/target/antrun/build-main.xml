@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="D:\Devops Practice\Maven-folder-structer\funds\target/funds.zip">
+    <zipfileset includes="lib/**" dir="D:\Devops Practice\Maven-folder-structer\funds\target"/>
+    <zipfileset includes="funds.jar" dir="D:\Devops Practice\Maven-folder-structer\funds\target"/>
+    <zipfileset includes="readme.txt" dir="D:\Devops Practice\Maven-folder-structer\funds"/>
+  </zip>
+</target>
+</project>
